@@ -3,7 +3,7 @@ function isAgree(){
 }
 
 function isDisagree(){
-    var posRandom = Math.floor(Math.random() * 199);
+    var posRandom = Math.floor(Math.random()*299);
     var diagree_btn = document.querySelector('#no');
     diagree_btn.style.position = 'relative';
     diagree_btn.style.top = posRandom + 'px';
@@ -11,6 +11,7 @@ function isDisagree(){
 
     // Object.assign(diagree_btn, style, {
     //     position: 'relative',
-    //     top: 
+    //     top: posRandom + 'px',
+    //     left: posRandom + 'px',
     // })
 }

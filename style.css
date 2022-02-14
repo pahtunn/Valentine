@@ -8,12 +8,11 @@ img{
     text-align: center;
 }
 .btn{
-    padding: 6px 9px;
     background-color: #fff;
     border: 1px solid aqua;
     margin: 10px;
 }
-#yes a{
+a{
     text-decoration: none;
     color: #000;
 }

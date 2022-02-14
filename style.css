@@ -1,0 +1,26 @@
+body{
+    background-color: #ffdfe4;
+}
+img{
+    max-width: 200px;
+}
+.box{
+    text-align: center;
+}
+.btn{
+    padding: 6px 9px;
+    background-color: #fff;
+    border: 1px solid aqua;
+    margin: 10px;
+}
+#yes a{
+    text-decoration: none;
+    color: #000;
+}
+.avt{
+    display: flex;
+}
+.avt img{
+    max-width: 100px;
+    border-radius: 20px;
+}
